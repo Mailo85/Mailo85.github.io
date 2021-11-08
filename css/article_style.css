@@ -40,12 +40,11 @@
 }
 
 .article-share a {
-    color: #3d9fff;
+    color: #65a9d6;
     text-decoration: none;
 }
 
 .article-share a:hover {
-    color: #3d9fff;
     text-decoration: underline;
 }
 
