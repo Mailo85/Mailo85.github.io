@@ -9,11 +9,13 @@
 }
 
 .article-img {
-    float: right;
-    margin-top: 1em;
-    padding-left: 1em;
-    width: 60%;
-    max-width: 600px;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.article figcaption {
+    font-size: smaller;
+    text-align: center;
 }
 
 .article-date-img {
@@ -46,6 +48,14 @@
 
 .article-share a:hover {
     text-decoration: underline;
+}
+
+.article blockquote {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .author-bio {
