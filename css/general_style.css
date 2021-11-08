@@ -13,7 +13,7 @@ h1,
 h2,
 h3 {
     color: rgb(126, 9, 9);
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
 }
 
 p {
