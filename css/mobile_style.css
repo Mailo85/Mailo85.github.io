@@ -5,7 +5,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 3em 2em auto auto 3em;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
         'header'
         'navbar'
@@ -133,4 +133,11 @@
 #footer img {
     width: 1.5em;
     margin-right: 4px;
+}
+
+/* Special ************************************/
+.page-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    line-height: 1em;
 }

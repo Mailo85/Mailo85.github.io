@@ -4,7 +4,7 @@
     display: grid;
     width: 65%;
     grid-template-columns: 150px 1fr;
-    grid-template-rows: 4em 70vh auto 50px;
+    grid-template-rows: 4em 65vh auto 50px;
     grid-template-areas:
         'header header'
         'navbar content'
