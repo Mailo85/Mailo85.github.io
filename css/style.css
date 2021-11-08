@@ -1,43 +1,6 @@
-/**** General ************************************/
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f1f1f1;
-}
-
-h1,
-h2,
-h3 {
-    color: rgb(126, 9, 9);
-}
-
-p {
-    margin-bottom: 0.1em;
-}
-
-ul {
-    list-style: none;
-    line-height: 2em;
-    padding: 0;
-    margin: 0;
-}
-
-ul li {
-    display: inline;
-    padding-right: 1em;
-}
-
-#navbar a {
-    color: rgb(110, 110, 110);
-    text-decoration: none;
-}
-
-#navbar a:hover {
-    border-bottom: 1px solid rgb(126, 9, 9);
-}
+@import url(article_style.css);
+@import url(form_style.css);
+@import url(general_style.css);
 
 /**** Structure/Containers ************************/
 .container {
@@ -125,47 +88,7 @@ ul li {
     background: rgba(204, 204, 204, 0.6);
 }
 
-/*** Articles ************************************/
-.article {
-    padding: 1em;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px grey;
-}
-
-.article img {
-    float: right;
-    padding-left: 1em;
-    width: 60%;
-    max-width: 600px;
-}
-
-/*** Featured Posts ******************************/
-#one {
-    grid-area: one;
-    background-image: url(../imgs/altumcode-XMFZqrGyV-Q-unsplash.jpg);
-    min-height: 200px;
-    background-size: cover;
-}
-#two {
-    grid-area: two;
-    background-image: url(../imgs/markus-spiske-Fa0pTKuoDVY-unsplash.jpg);
-    min-height: 200px;
-    background-size: cover;
-}
-#three {
-    grid-area: three;
-    background-image: url(../imgs/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg);
-    min-height: 200px;
-    background-size: cover;
-}
-#four {
-    grid-area: four;
-    background-image: url(../imgs/danial-igdery-FCHlYvR5gJI-unsplash.jpg);
-    min-height: 200px;
-    background-size: cover;
-}
-
+/* Sections ****************************************/
 #header {
     grid-area: header;
     color: rgb(126, 9, 9);
@@ -180,53 +103,25 @@ ul li {
     /* border: 1px solid red; */
 }
 
+#navbar a {
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid rgb(126, 9, 9);
+}
+
 #featured {
     grid-area: content;
     /* border: 1px solid red; */
-}
-
-#subscribe_form {
-    grid-area: subscribe;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    box-shadow: 0px 2px 4px grey;
-}
-
-.form_email {
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: 1px solid grey;
-    width: 200px;
-    font-size: 12px;
-    color: grey;
-}
-
-.subscribe-button {
-    background-color: #3d9fff;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 600;
-}
-
-.subscribe-button:hover {
-    background-color: #2892fd;
-}
-
-#subscribe_form form {
-    margin-top: 1em;
 }
 
 #footer {
     grid-area: footer;
     display: flex;
     justify-content: flex-end;
-    background-color: white;
+    background-color: #f1f1f1;
     color: black;
     font-size: small;
     margin-top: 0.5em;
@@ -241,12 +136,13 @@ ul li {
     margin-right: 4px;
 }
 
+/* Media Queries *************************************/
 @media (min-width: 700px) {
     .container {
         display: grid;
         width: 65%;
         grid-template-columns: 150px 1fr;
-        grid-template-rows: 4em 75vh 10em 50px;
+        grid-template-rows: 4em auto 10em 50px;
         grid-template-areas:
             'header header'
             'navbar content'

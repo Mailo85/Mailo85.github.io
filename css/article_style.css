@@ -1,0 +1,76 @@
+/*** Articles ************************************/
+
+.article {
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px grey;
+    text-align: justify;
+}
+
+.article-img {
+    float: right;
+    margin-top: 1em;
+    padding-left: 1em;
+    width: 60%;
+    max-width: 600px;
+}
+
+.article-date-img {
+    width: 1em;
+    margin-right: 0.5em;
+}
+
+.article-title {
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+.article-author {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.article-date {
+    font-size: 12px;
+}
+
+.article-share {
+    font-weight: 600;
+}
+
+.article-share a {
+    color: #3d9fff;
+    text-decoration: none;
+}
+
+.article-share a:hover {
+    color: #3d9fff;
+    text-decoration: underline;
+}
+
+/*** Featured Posts ******************************/
+#one {
+    grid-area: one;
+    background-image: url(../imgs/altumcode-XMFZqrGyV-Q-unsplash.jpg);
+    min-height: 200px;
+    background-size: cover;
+}
+#two {
+    grid-area: two;
+    background-image: url(../imgs/markus-spiske-Fa0pTKuoDVY-unsplash.jpg);
+    min-height: 200px;
+    background-size: cover;
+}
+#three {
+    grid-area: three;
+    background-image: url(../imgs/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg);
+    min-height: 200px;
+    background-size: cover;
+}
+#four {
+    grid-area: four;
+    background-image: url(../imgs/danial-igdery-FCHlYvR5gJI-unsplash.jpg);
+    min-height: 200px;
+    background-size: cover;
+}
