@@ -3,9 +3,9 @@
 .article {
     padding: 1em;
     background-color: white;
+    text-align: justify;
     border-radius: 10px;
     box-shadow: 0px 2px 4px grey;
-    text-align: justify;
 }
 
 .article-img {
