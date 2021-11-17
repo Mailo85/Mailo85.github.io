@@ -1,0 +1,47 @@
+#main {
+    width: 66%;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#header {
+    background-color: #f1f1f1;
+}
+
+#title {
+    font-family: Satisfy, serif;
+    font-size: 60px;
+    padding-top: 0.5em;
+    margin-bottom: 0;
+    border-top: 1px dashed black;
+}
+
+#subtitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    padding-bottom: 1em;
+    border-bottom: 1px dashed black;
+}
+
+#image {
+    width: 40%;
+    max-width: max-content;
+}
+
+#img-caption {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.8em;
+}
+
+#tribute-link {
+    font-weight: 800;
+}
+
+#tribute-link a:hover {
+    color: blue;
+}
